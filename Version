@@ -1,1 +1,12 @@
-version = 'V1.0'
+version = 'V0.0'
+
+type = 'Trail'
+
+
+
+def VENOM_UA():
+    s= "[FBAN/FB4A;FBAV/"+str(random.randint(111,999))+'.0.0.'+str(random.randrange(9,99))+str(random.randint(111,999)) +";FBBV/"+str(random.randint(111111111,999999999))
+    e = ";[FBAN/FB4A;FBAV/430.0.0.23.113;FBBV/510343507;FBDM/{density=5.0,width=480,height=854};FBLC/bg_BG;FBRV/511943403;FBCR/VIVACOM;FBMF/DIGMA Linx;FBBD/DIGMA Linx;FBPN/com.facebook.katana;FBDV/C500	3G	LT5001PG;FBSV/5.1;FBOP/1;FBCA/arm64-v8a:;]"
+    ua = s + e
+    #print(ua)
+    return ua
