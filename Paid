@@ -1,7 +1,1 @@
-def Activate():
-  if k in r:
-     menu()
-else:
-     print('SORRY BRO')
-     exit()
-     
+def Deactivate ()
