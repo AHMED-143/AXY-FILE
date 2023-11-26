@@ -1,2 +1,7 @@
 def Activate():
-  key= menu()
+  if k in r:
+     menu()
+else:
+     print('SORRY BRO')
+     exit()
+     
